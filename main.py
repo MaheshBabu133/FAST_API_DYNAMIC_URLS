@@ -8,7 +8,7 @@ def Sample(id:int):
 
 
 
-@app.get("/friend/{id}/marriage")
+@app.get("/friend/{id}/friend")
 def Sample2(id):
     return f"Mahesh {id} Sonu"
 
